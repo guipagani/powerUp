@@ -1,0 +1,17 @@
+[project]
+name = "powerup"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Paganigg", email = "guilhermepagani27@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=2.3.3",
+    "pyautogui>=0.9.54",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.24,<0.10.0"]
+build-backend = "uv_build"
