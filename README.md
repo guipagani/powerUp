@@ -16,6 +16,7 @@ Este projeto implementa uma solução de **RPA (Robotic Process Automation)** pa
 * **Processamento de Dados:**
 
   * `Pandas` (leitura e tratamento de DataSets)
+  * `Pandas openpyxl` (leitura para excel)
 
 ---
 
