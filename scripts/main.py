@@ -1,17 +1,20 @@
-from powerup.browser_script import BroswerScript
+"""
+Script Principal.
 
-open = BroswerScript()
+Módulo que coordena ou facilita o fluxo prático em diferentes computadores, ajustando-o ao seu uso adequado, 
+focado exclusivamente no desafio Jornada Python (Hashtag Programming).
+"""
 
-open.command_press('win')
-open.command_write('chrome')
-open.command_press('enter')
-open.command_press('tab')
-open.command_press('tab')
-open.command_press('tab')
-open.command_press('tab')
-open.command_press('enter')
+import time
+import pandas as pd
+import pyautogui
+from powerup.interface_script import InterfaceScript
+from powerup.DatasetManager import DataSet
 
-login = BroswerScript()
+# Configurações iniciais
+link = "https://dlp.hashtagtreinamentos.com/python/intensivao/login"
 
-login.command_write('https://dlp.hashtagtreinamentos.com/python/intensivao/login')
-login.command_press('enter')
+automation = InterfaceScript()
+db_manager = DataSet()
+
+# Prosseguir (code here)

@@ -6,6 +6,24 @@ Este projeto implementa uma solução de **RPA (Robotic Process Automation)** pa
 
 ---
 
+## Metodologia
+
+Este repositório foi estruturado para fins de aprendizado sobre RPA com a biblioteca **PyAutoGUI**. Para facilitar o entendimento, o código foi dividido em duas abordagens:
+
+### 1. `main.py` (Estrutura Genérica)
+Contém a lógica modular e reutilizável, seguindo os padrões de herança e abstração de classes. É o núcleo estável do projeto.
+
+### 2. `example.py` (Estudo de Caso Local)
+Este arquivo é uma implementação específica para o desafio proposto pela **Hashtag Programação**. Ele serve como exemplo prático de como:
+* Abrir o navegador via atalhos do sistema operacional.
+* Manipular janelas anônimas.
+* Realizar o tratamento de dados dinâmicos com **Pandas** durante o preenchimento.
+* Utilizar calibração manual de coordenadas para adaptar o bot a diferentes resoluções de monitor.
+
+**Nota técnica:** Devido à natureza do PyAutoGUI (baseada em coordenadas de tela e simulação de hardware), o arquivo `example.py` pode exigir ajustes de `sleep` e coordenadas dependendo da performance do hardware e da resolução do monitor utilizado.
+
+---
+
 ## Tecnologias e Dependências
 
 * **Linguagem:** Python 3.13+
