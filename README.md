@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-Este projeto implementa uma solução de **RPA (Robotic Process Automation)** para a inserção de dados em sistemas legados ou interfaces web. O desenvolvimento segue a metodologia apresentada pela **Hashtag Programação** durante a *Jornada Python (Aula 1)*.
+Este projeto implementa uma solução de **RPA (Robotic Process Automation)** para a inserção de dados em um sistema web fictício voltado a simular um cadastro de produtos de x empresa. O desenvolvimento segue a metodologia apresentada pela **Hashtag Programação** durante a *Jornada Python (Aula 1)*.
 
 ---
 
@@ -15,7 +15,7 @@ Este projeto implementa uma solução de **RPA (Robotic Process Automation)** pa
   * `PyAutoGUI` (interação com interface gráfica e periféricos)
 * **Processamento de Dados:**
 
-  * `Pandas` (leitura e tratamento de DataFrames)
+  * `Pandas` (leitura e tratamento de DataSets)
 
 ---
 
@@ -90,4 +90,5 @@ Conforme as diretrizes técnicas da biblioteca **PyAutoGUI**, o script possui um
 A arquitetura lógica e os *datasets* utilizados foram providos pela **Hashtag Programação** como parte do conteúdo didático da *Jornada Python*. O sistema alvo para os testes de cadastro é de propriedade e manutenção da referida instituição.
 
 Referência: [https://www.youtube.com/watch?v=0GDt-6H9NWM] 
+
 Referência: [https://drive.google.com/drive/folders/1ERaraa4ZeXWFWo4K8oNJi4kY6aGZYdzw]
