@@ -6,9 +6,8 @@ comandos da biblioteca PyAutoGUI.
 """
 
 from typing import Union, List
-import pyautogui
 from powerup.position_mouse import PositionMouse
-
+import pyautogui
 
 class InterfaceScript(PositionMouse):
     """
@@ -22,7 +21,8 @@ class InterfaceScript(PositionMouse):
     """
 
     # Configuração de latência global entre comandos
-    pyautogui.PAUSE = 1.0
+    pyautogui.FAILSAFE = True
+    pyautogui.PAUSE = 1
 
     def command_press(self, key: str) -> None:
         """
